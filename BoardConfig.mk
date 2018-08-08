@@ -1,4 +1,4 @@
-DEVICE_TREE := device/lge/us996
+DEVICE_TREE := device/lge/h915
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -36,7 +36,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_CONFIG := twrp_defconfig
 TARGET_KERNEL_DEVICE_DEFCONFIG := device_lge_us996
 
-TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/Image-us996.lz4-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_TREE)/Image-h915.lz4-dtb
 
 # Boot image
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 user_debug=31 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 cma=32M@0-0xffffffff androidboot.hardware=elsa androidboot.bootdevice=624000.ufshc androidboot.selinux=permissive

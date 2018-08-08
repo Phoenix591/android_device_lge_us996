@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := us996
+PRODUCT_RELEASE_NAME := h915
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -12,9 +12,9 @@ PRODUCT_PACKAGES += \
 	charger
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := us996
-PRODUCT_MODEL := LG-US996
-PRODUCT_NAME := omni_us996
+PRODUCT_DEVICE := h915
+PRODUCT_MODEL := LG-H915
+PRODUCT_NAME := omni_h915
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_COPY_FILES += device/lge/$(PRODUCT_DEVICE)/recovery.fstab:recovery/root/etc/twrp.flags

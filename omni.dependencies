@@ -7,6 +7,12 @@
 	},
 	{
 		"remote": "github",
+		"repository": "LineageOS/android_kernel_lge_msm8996",
+		"target_path": "kernel/lge/msm8996",
+		"revision": "lineage-15.1"
+	},
+	{
+		"remote": "github",
 		"repository": "Phoenix591/android_external_zip",
 		"target_path": "external/zip",
 		"revision": "lineage-15.1"

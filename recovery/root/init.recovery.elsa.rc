@@ -1,14 +1,15 @@
 import /init.recovery.tweaks.rc
 
-on property:ro.crypto.state=encrypted
-	chmod 0750 /qseecom.sh
-	start qseecom
+#on property:ro.crypto.state=encrypted
+#	chmod 0750 /qseecom.sh
+#	start qseecom
 
-service qseecom /sbin/sh /sbin/qseecom.sh
-	disabled
-	user root
-	group root
-	seclabel u:r:recovery:s0
+#service qseecom /sbin/sh /sbin/qseecom.sh
+#	disabled
+#	oneshot
+#	user root
+#	group root
+#	seclabel u:r:recovery:s0
 
 service fixdate /sbin/sh /sbin/fixdate.sh
 	oneshot
